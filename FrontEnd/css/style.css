@@ -22,6 +22,7 @@ a {
 i {
     margin-right: 5px;
 }
+
 /* Header */
 .header {
     margin-top: 80px;
@@ -36,7 +37,7 @@ i {
 
 /* Input Section */
 .input {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .input-card {
