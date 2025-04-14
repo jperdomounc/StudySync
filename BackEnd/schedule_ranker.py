@@ -52,5 +52,5 @@ def generate_schedules(schedule_range, course_list, prof_ratings, time_weight=1.
 
     sorted_schedules = sorted(valid_schedules, key=lambda x: x['score'], reverse=True)
     return sorted_schedules
-
+"""specify schedule data types"""
     
