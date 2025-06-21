@@ -32,4 +32,25 @@ Mar 31, 2025.
 
     By Monday April 7th have a minimum viable product, that contains basic UI.
 
-   
+
+    ********************************
+    File Structure to keep track of
+    ********************************
+    
+   backend/
+├── main.py                  # FastAPI app with /generate_schedule route
+├── models.py                # Pydantic models: Course, ShoppingCart, Preferences
+├── parser.py                # parse_shopping_cart logic
+├── optimizer.py           
+
+frontend/
+├── src/
+│   ├── api/
+│   │   └── schedule.js      # Axios function for /generate_schedule
+│   ├── components/
+│   │   ├── ScheduleInput.jsx    # input UI component
+│   │   └── ScheduleResults.jsx  # results display
+│   ├── App.jsx             
+│   └── main.jsx            
+├── index.html
+├── package.json

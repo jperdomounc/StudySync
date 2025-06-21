@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
+from models import SchedulePreferences, ShoppingCart, Course
 
 class Fruit(BaseModel):
     name:str
@@ -23,6 +24,15 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"]
     )
+"""
+@app.post("/generate_schedule", response_model=List[Course])
+def generate_schedule(cart: ShoppingCart):
+    parsed_courses = parse_shopping_cart(cart.pasted_text)
+    optimized = optimize_schedule(parsed_courses, cart.preferences)
+    return optimized
+"""
+
+
 
 memory_db = {"fruits": []}
 
