@@ -1,9 +1,10 @@
 import axios from 'axios';
 
 export const generateSchedule = async (pastedText, preferences) => {
-  const response = await axios.post('http://localhost:8000/generate_schedule', {
+  const res = await axios.post('http://localhost:8000/generate_schedule', {
     pasted_text: pastedText,
-    preferences,
+    preferences
   });
-  return response.data;
+  console.log("generateSchedule");
+  return res.data;
 };

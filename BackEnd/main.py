@@ -1,50 +1,29 @@
-import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
 from typing import List
-from models import SchedulePreferences, ShoppingCart, Course
-
-class Fruit(BaseModel):
-    name:str
-
-class Fruits(BaseModel):
-    fruits: List[Fruit]
+from models import ShoppingCart, Course
+from parser import parse_shopping_cart
 
 app = FastAPI()
 
-origins = [
-    "http://localhost:5173"
-]
-
+# Allow frontend on localhost to call this API
 app.add_middleware(
-    CORSMiddleware, 
-    allow_origins=origins,
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"]
-    )
-"""
+    allow_headers=["*"],
+)
+
 @app.post("/generate_schedule", response_model=List[Course])
 def generate_schedule(cart: ShoppingCart):
-    parsed_courses = parse_shopping_cart(cart.pasted_text)
-    optimized = optimize_schedule(parsed_courses, cart.preferences)
-    return optimized
-"""
+    # Parse raw shopping cart text into structured courses
+    all_courses = parse_shopping_cart(cart.pasted_text)
+    
+    # Filter by time preferences (optional but useful)
+    filtered = [
+        c for c in all_courses
+        if cart.preferences.earliest_time <= c.start_time <= cart.preferences.latest_time
+    ]
 
-
-
-memory_db = {"fruits": []}
-
-@app.get("/fruits", response_model=Fruits)
-def get_fruits():
-    return Fruits(fruits = memory_db["fruits"])
-
-
-@app.post("/fruits")
-def add_fruits(fruit: Fruit):
-    memory_db["fruits"].append(fruit)
-    return fruit
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    return filtered
