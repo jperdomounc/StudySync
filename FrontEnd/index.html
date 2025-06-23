@@ -1,81 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule Maker</title>
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
-    100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,
-    600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <!--Header-->
-    <section class="header">
-        <div class="container">
-            <div class="header-content">
-                <h1 class="header-title text-lg blue">
-                    StudySync
-                </h1>
-            </div>
-        </div>
-    </section>
-
-    <!--Input Field-->
-    <section class="input">
-        <div class="container-sm" id="input-container">
-            <div class="input-card input-template">
-                <div class="input-card-class">
-                    <h3 class="class-title text-md">
-                        Class Name
-                    </h3>
-                    <form action="#">
-                        <input type="text" id="cname" name="cname" placeholder="Ex: COMP 110-001" required>
-                    </form>
-                </div>
-                <div class="input-card-time">
-                    <h3 class="time-title text-md">
-                        Preferred Time
-                    </h3>
-                    <div class="options">
-                        <p class="time-label">AM</p>
-                        <label class="custom-radio-btn">
-                            <input type="radio" name="time-1">
-                            <span class="checkmark"></span>
-                        </label>
-                        <p class="time-label">PM</p>
-                        <label class="custom-radio-btn">
-                            <input type="radio" name="time-1">
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Add Field-->
-    <section class="add">
-        <div class="container-sm">
-            <div class="add-buttons">
-                <a href="#" class="btn" onclick="displayInput()">
-                    <i class="fa-solid fa-plus"></i>
-                    Add Class
-                </a>
-                <a href="#" class="btn">
-                    <i class="fa-solid fa-plus"></i>
-                    Add Lab
-                </a>
-            </div>
-        </div>
-    </section>
-    <script src="main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
