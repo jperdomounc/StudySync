@@ -1,0 +1,433 @@
+
+Found 72 course(s), 415 section(s)
+
+Subject	Catalog Number	Same As	Class Section	Class Number	Description	Term	Hours	Meeting Dates	Schedule	Room	Instruction Type	Instructor	Available Seats
+BIOL	62H		001	13575	Biol Infectious Disease	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	None	In Person On Campus Learners	PEIFER,MARK A	0
+101		001	2647	Principles Of Biol	2025 Fall	3.0	08/18/2025 - 12/12/2025	MW 03:35 PM-04:50 PM	Genome Sciences Bui-Rm G100	In Person On Campus Learners	Hastie,Eric Lawrence	0
+002	2648	Principles Of Biol	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 09:05 AM-09:55 AM	Genome Sciences Bui-Rm G100	In Person On Campus Learners	Claytor,Jordan Ray	0
+003	15174	Principles Of Biol	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	Wilson Hall-Rm 0107	In Person On Campus Learners	None	0
+101L		401	2661	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 12:30 PM-03:15 PM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+402	2662	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 12:30 PM-03:15 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+403	2895	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 12:30 PM-03:15 PM	Coker Hall-Rm 0209	In Person On Campus Learners	STEGENGA,BARBARA D	0
+404	10772	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 04:00 PM-06:45 PM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+405	2663	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 04:00 PM-06:45 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+406	13581	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 04:00 PM-06:45 PM	Coker Hall-Rm 0209	In Person On Campus Learners	STEGENGA,BARBARA D	0
+407	2843	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 09:30 AM-12:15 PM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+408	9878	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 09:30 AM-12:15 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+410	2664	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 12:30 PM-03:15 PM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+411	2768	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 12:30 PM-03:15 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+412	9879	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 12:30 PM-03:15 PM	Coker Hall-Rm 0209	In Person On Campus Learners	STEGENGA,BARBARA D	0
+413	2665	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 04:00 PM-06:45 PM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+414	10773	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 04:00 PM-06:45 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+415	11720	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 04:00 PM-06:45 PM	Coker Hall-Rm 0209	In Person On Campus Learners	STEGENGA,BARBARA D	0
+416	2666	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 09:05 AM-11:50 AM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+417	9880	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 09:05 AM-11:50 AM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+418	2731	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 09:05 AM-11:50 AM	Coker Hall-Rm 0209	In Person On Campus Learners	STEGENGA,BARBARA D	0
+419	2900	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 12:30 PM-03:15 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+420	9881	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 12:30 PM-03:15 PM	Coker Hall-Rm 0209	In Person On Campus Learners	STEGENGA,BARBARA D	0
+421	10774	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 04:00 PM-06:45 PM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+422	2883	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 04:00 PM-06:45 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+423	2852	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 04:00 PM-06:45 PM	Coker Hall-Rm 0209	In Person On Campus Learners	STEGENGA,BARBARA D	0
+424	2775	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 09:30 AM-12:15 PM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+425	9882	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 09:30 AM-12:15 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+426	13583	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 09:30 AM-12:15 PM	Coker Hall-Rm 0209	In Person On Campus Learners	STEGENGA,BARBARA D	0
+427	2667	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 12:30 PM-03:15 PM	Coker Hall-Rm 0207	In Person On Campus Learners	STEGENGA,BARBARA D	0
+428	2853	Intro Biology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 12:30 PM-03:15 PM	Coker Hall-Rm 0208	In Person On Campus Learners	STEGENGA,BARBARA D	0
+103		001	9867	How Cells Function	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 08:00 AM-09:15 AM	Carroll Hall-Rm 0111	In Person On Campus Learners	GARLAND,ALAINA L	29
+002	9868	How Cells Function	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 11:15 AM-12:05 PM	Carroll Hall-Rm 0111	In Person On Campus Learners	OTT,LAURA E	0
+003	9869	How Cells Function	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 01:25 PM-02:15 PM	Genome Sciences Bui-Rm G200	In Person On Campus Learners	OTT,LAURA E	1
+004	15169	How Cells Function	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	Coker Hall-Rm 0201	In Person On Campus Learners	None	44
+104		001	10300	Biodiversity	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	Carroll Hall-Rm 0111	In Person On Campus Learners	Evans,Mara	12
+002	11776	Biodiversity	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 10:10 AM-11:00 AM	Genome Sciences Bui-Rm G200	In Person On Campus Learners	Claytor,Jordan Ray	0
+01F	11777	Biodiversity	2025 Fall	3.0	08/18/2025 - 12/12/2025	MW 03:35 PM-04:50 PM	Genome Sciences Bui-Rm 1374	In Person On Campus Learners	Claytor,Jordan Ray	0
+104H		006	15395	Biodiversity	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	Carroll Hall-Rm 0111	In Person On Campus Learners	Evans,Mara	0
+105L		401	10768	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	T 09:30 AM-10:30 AM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+401	10768	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+402	11730	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	T 11:00 AM-12:00 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	1
+402	11730	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	1
+403	11731	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	T 12:30 PM-01:30 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+403	11731	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+404	11732	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	T 02:00 PM-03:00 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+404	11732	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+405	11733	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	T 03:30 PM-04:30 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+405	11733	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+406	11734	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 09:05 AM-10:05 AM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+406	11734	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+407	11735	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 10:10 AM-11:10 AM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+407	11735	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+408	11736	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 11:15 AM-12:15 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+408	11736	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+409	11737	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+409	11737	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 01:25 PM-02:25 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+410	11738	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+410	11738	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 02:30 PM-03:30 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+411	11739	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	TH 09:30 AM-10:30 AM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+411	11739	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+412	11740	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	TH 11:00 AM-12:00 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+412	11740	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+413	11741	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	TH 12:30 PM-01:30 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+413	11741	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+414	11742	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	TH 02:00 PM-03:00 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+414	11742	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+415	11743	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 12:20 PM-01:10 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Hastie\Nevil	0
+415	11743	Biological Research Skills	2025 Fall	3.0	08/18/2025 - 12/12/2025	TH 03:30 PM-04:30 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	Hastie\Nevil	0
+115	MATH 115, PSYC 115, STOR 115	001	12439	Reasoning With Data	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 02:30 PM-03:20 PM	Phillips Hall-Rm 0215	In Person On Campus Learners	McCombs,Mark A.	0
+117		001	2854	Considering Health Professions	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 05:30 PM-07:15 PM	Genome Sciences Bui-Rm G100	In Person On Campus Learners	DeSaix\GARLAND\Zomorodi	2
+119	NURS 619	001	12741	Health Professions Experience	2025 Fall	3.0	08/18/2025 - 12/12/2025	M 03:00 PM-05:30 PM	None	In Person On Campus Learners	Zomorodi,Margaret Gambrell	1
+185		001	13576	Transfer Thive Life Sci	2025 Fall	1.0	08/18/2025 - 12/12/2025	MWF 10:10 AM-11:00 AM	Genome Sciences Bui-Rm 1374	In Person On Campus Learners	OTT,LAURA E	28
+220		001	10770	Molecular Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	Carroll Hall-Rm 0111	In Person On Campus Learners	Zwemer,Lillian	0
+002	10771	Molecular Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 02:00 PM-03:15 PM	Genome Sciences Bui-Rm G200	In Person On Campus Learners	SHEMER,GIDEON	0
+003	11781	Molecular Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 12:30 PM-01:45 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Zwemer,Lillian	0
+004	15076	Molecular Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	MW 03:35 PM-04:50 PM	Wilson Hall-Rm 0202	In Person On Campus Learners	PEIFER,MARK A	0
+005	18127	Molecular Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 03:30 PM-04:45 PM	Wilson Hall-Rm 0202	In Person On Campus Learners	None	25
+220H		001	13577	Molecular Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 12:30 PM-01:45 PM	Wilson Hall-Rm 0202	In Person On Campus Learners	KIEBER,JOSEPH J	0
+002	15196	Molecular Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	Genome Sciences Bui-Rm 1378	In Person On Campus Learners	BLOOM,KERRY S	0
+223L		401	15200	Molecular Genetics Cure Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 01:25 PM-04:25 PM	Wilson Hall-Rm 0132	In Person On Campus Learners	REED,JASON W	9
+227L		401	15175	Comm Genome	2025 Fall	3.0	08/18/2025 - 12/12/2025	MW 03:35 PM-04:50 PM	Wilson Hall-Rm 0213	In Person On Campus Learners	Nevil,Markus	0
+240		001	10766	Cell Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 12:30 PM-01:45 PM	Genome Sciences Bui-Rm G200	In Person On Campus Learners	ROGERS\SLEP	64
+002	15079	Cell Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 12:20 PM-01:10 PM	Genome Sciences Bui-Rm G200	In Person On Campus Learners	None	49
+250		001	11700	Evolutionary Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 10:10 AM-11:00 AM	Coker Hall-Rm 0201	In Person On Campus Learners	WILLETT,CHRISTOPHER S	0
+252		001	2890	Fundamentals Of Human A And P	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	Genome Sciences Bui-Rm G200	In Person On Campus Learners	Johnson,Corey Samuel	0
+002	2891	Fundamentals Of Human A And P	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	Genome Sciences Bui-Rm G200	In Person On Campus Learners	SHEMER,GIDEON	0
+003	15199	Fundamentals Of Human A And P	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 11:15 AM-12:05 PM	Genome Sciences Bui-Rm G200	In Person On Campus Learners	None	1
+252L		401	2732	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 08:00 AM-10:50 AM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+402	2896	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 08:00 AM-10:50 AM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+403	2733	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 12:30 PM-03:20 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+404	2734	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 12:30 PM-03:20 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+405	2735	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 03:30 PM-06:20 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+406	2736	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 03:30 PM-06:20 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+407	2737	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 06:30 PM-09:30 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+408	2738	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 06:30 PM-09:30 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+409	2739	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 08:00 AM-10:50 AM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+410	2740	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 08:00 AM-10:50 AM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+411	2741	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 12:30 PM-03:20 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+412	2742	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 12:30 PM-03:20 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+413	2743	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 03:30 PM-06:20 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+414	2744	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 03:30 PM-06:20 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+415	2897	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 06:30 PM-09:30 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+416	2745	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 06:30 PM-09:30 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+417	2746	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 08:00 AM-10:50 AM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+418	2747	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 08:00 AM-10:50 AM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+419	9884	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 12:30 PM-03:20 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+420	2748	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 12:30 PM-03:20 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+421	2898	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 03:30 PM-06:20 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+422	2840	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 03:30 PM-06:20 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+423	2887	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 08:00 AM-10:50 AM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+424	2888	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 08:00 AM-10:50 AM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+425	2889	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 12:30 PM-03:20 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+426	10775	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 12:30 PM-03:20 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+427	9885	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 03:30 PM-06:20 PM	Wilson Hall-Rm 0111	In Person On Campus Learners	Johnson,Corey Samuel	0
+428	9886	Fundamentals Of Human A&P Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 03:30 PM-06:20 PM	Wilson Hall-Rm 0212	In Person On Campus Learners	Johnson,Corey Samuel	0
+272	ENEC 272	001	2649	Local Flora	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 10:10 AM-11:00 AM	Wilson Hall-Rm 0128	In Person On Campus Learners	Fuller,Joshua Brandon	5
+272L	ENEC 272L	401	13182	Local Flora Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 01:25 PM-04:20 PM	Wilson Hall-Rm 0140	In Person On Campus Learners	Fuller,Joshua Brandon	3
+ENEC 272L	402	13184	Local Flora Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 01:25 PM-04:20 PM	Wilson Hall-Rm 0140	In Person On Campus Learners	Fuller,Joshua Brandon	2
+278		001	2651	Animal Behavior	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	Coker Hall-Rm 0201	In Person On Campus Learners	LOHMANN,CATHERINE M F	19
+278L		401	2674	Animal Behavior Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 08:00 AM-11:00 AM	Wilson Hall-Rm 0G20	In Person On Campus Learners	LOHMANN,CATHERINE M F	2
+402	2675	Animal Behavior Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 12:20 PM-03:20 PM	Wilson Hall-Rm 0G20	In Person On Campus Learners	LOHMANN,CATHERINE M F	1
+403	2676	Animal Behavior Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 12:30 PM-03:15 PM	Wilson Hall-Rm 0G20	In Person On Campus Learners	LOHMANN,CATHERINE M F	0
+404	2677	Animal Behavior Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 08:00 AM-11:00 AM	Wilson Hall-Rm 0G20	In Person On Campus Learners	LOHMANN,CATHERINE M F	1
+405	2678	Animal Behavior Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 12:20 PM-03:20 PM	Wilson Hall-Rm 0G20	In Person On Campus Learners	LOHMANN,CATHERINE M F	0
+406	2679	Animal Behavior Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TH 12:30 PM-03:15 PM	Wilson Hall-Rm 0G20	In Person On Campus Learners	LOHMANN,CATHERINE M F	0
+407	2708	Animal Behavior Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	F 08:00 AM-11:00 AM	Wilson Hall-Rm 0G20	In Person On Campus Learners	LOHMANN,CATHERINE M F	2
+408	2709	Animal Behavior Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	F 12:20 PM-03:20 PM	Wilson Hall-Rm 0G20	In Person On Campus Learners	LOHMANN,CATHERINE M F	0
+291		001	2917	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	ROGERS,STEPHEN L	40
+005	2901	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	OTT,LAURA E	40
+006	15403	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	Johnson,Corey Samuel	43
+007	2694	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Johnson,Corey Samuel	38
+009	2915	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BRUNO,JOHN F	40
+010	2902	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Zwemer,Lillian	40
+023	11275	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Claytor,Jordan Ray	19
+025	2702	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SHEMER,GIDEON	25
+032	10776	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	GARLAND,ALAINA L	40
+040	2769	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Evans,Mara	38
+044	2652	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	STEGENGA,BARBARA D	38
+070	2913	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Hastie,Eric Lawrence	37
+085	13018	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	PEIFER,MARK A	9
+109	12929	Teaching Apprentice In Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WILLETT,CHRISTOPHER S	20
+292		005	2914	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	OTT,LAURA E	20
+007	2698	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Johnson,Corey Samuel	44
+009	10596	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BRUNO,JOHN F	20
+010	10542	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Zwemer,Lillian	20
+023	11274	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Claytor,Jordan Ray	10
+032	2916	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	GARLAND,ALAINA L	20
+040	10513	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Evans,Mara	20
+044	2653	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	STEGENGA,BARBARA D	43
+070	12848	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Hastie,Eric Lawrence	5
+085	13019	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	PEIFER,MARK A	9
+088	15556	Teaching Assistant In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	REED,JASON W	9
+293		401	2654	Undergraduate Internship	2025 Fall	3.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	BURMEISTER,SABRINA S	18
+295		401	10163	Biol Education Social Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	OTT,LAURA E	15
+402	10476	Biol Education Social Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	Hastie,Eric Lawrence	15
+350	EMES 401, ENVR 417	001	12358	Oceanography	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 08:00 AM-09:15 AM	Sitterson Hall (inc-Rm FB009	In Person On Campus Learners	ARNOSTI,CAROL	0
+EMES 401, ENVR 417	002	12356	Oceanography	2025 Fall	3.0	None	None	None	In Person On Campus Learners	None	11
+351		001	15750	Frontiers Of Fermentation	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 08:00 AM-08:50 AM	None	In Person On Campus Learners	JONES,CORBIN D	0
+351L		401	15751	Frontiers Of Fermentation Lab	2025 Fall	2.0	08/18/2025 - 12/12/2025	F 01:25 PM-04:25 PM	Wilson Hall-Rm 0134	In Person On Campus Learners	JONES,CORBIN D	0
+395		001	2655	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	ROGERS,STEPHEN L	10
+002	2752	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MITCHELL,CHARLES E	10
+003	2707	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	FUREY,TERRENCE S	10
+004	2776	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BURMEISTER,SABRINA S	10
+005	2903	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	OTT,LAURA E	10
+006	11840	Undergraduate Biology Research	2025 Fall	1.0	None	None	None	Remote Only - All Asynchronous	None	10
+007	2716	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Johnson,Corey Samuel	9
+009	2753	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BRUNO,JOHN F	10
+010	2893	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Zwemer,Lillian	10
+011	2719	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MATERA,ARNOLD GREGORY	8
+012	2777	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WEAKLEY,ALAN S	10
+013	2773	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MCKAY,DANIEL JAMES	10
+014	2873	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Dowen,Robert Houston	15
+015	2695	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SLEP,KEVIN C	10
+016	11841	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Chen,Jiakun	16
+017	2841	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WILLIAMS,SCOTT E	10
+018	2754	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	HURLBERT,ALLEN HARTLEY	10
+019	2778	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Dowen,Jill	7
+020	11273	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SOCKMAN,KEITH W	10
+021	2779	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	JONES,CORBIN D	10
+022	2692	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	PFENNIG,KARIN S	10
+023	2780	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Claytor,Jordan Ray	10
+024	2718	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SERVEDIO,MARIA R	10
+025	2697	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SHEMER,GIDEON	49
+026	2774	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Shiau,Celia	10
+027	2712	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Maddox,Amy Shaub	10
+028	2879	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Gordon,Kacy L	10
+029	11842	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Yang,En	10
+030	2755	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MATUTE,DANIEL R.	10
+031	2904	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Fodrie,Fredrick Joel	10
+032	2856	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	GARLAND,ALAINA L	8
+033	2756	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	HEDRICK,TYSON L	10
+035	11843	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Riddell,Eric	10
+036	11844	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Johri,Parul	10
+039	2715	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BLOOM,KERRY S	10
+040	2757	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Evans,Mara	10
+042	2847	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Hige,Toshihide	10
+045	2781	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	GENSEL,PATRICIA G	10
+047	10789	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Yitbarek,Senay	10
+049	11845	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Feng,Xiao	10
+050	10177	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	McCoy,Sophie	10
+052	2680	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MATTHYSSE,ANN G	10
+055	2722	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Maddox,Paul Samuel	10
+059	13391	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	Nevil,Markus	15
+060	2758	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Nimchuk,Zachary Luke	10
+065	2703	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	CREWS,STEPHEN T	10
+066	2782	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	LOHMANN,CATHERINE M F	10
+070	2905	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Hastie,Eric Lawrence	10
+071	2713	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	JONES,ALAN M	10
+072	2906	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WHITE,PETER S	10
+074	11846	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Prunet,Nathanael	10
+075	2877	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SANCAR,AZIZ	10
+077	10552	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Septer,Alecia Noelle	10
+079	2783	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BAUTCH,VICTORIA L	10
+081	2686	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BALDWIN Jr,ALBERT S	10
+083	2784	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	LOHMANN,KENNETH J	10
+085	2696	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	PEIFER,MARK A	10
+086	2700	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MARZLUFF,WILLIAM F	10
+087	2723	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	DANGL,JEFFERY L	10
+088	2759	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	REED,JASON W	10
+089	2717	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	YEH,ELAINE Y	10
+091	2724	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	PFENNIG,DAVID W	10
+092	2725	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	DURONIO,ROBERT J	10
+095	2760	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SEKELSKY,JEFF J	10
+096	2699	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	GOLDSTEIN,ROBERT P	10
+097	2685	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	KIEBER,JOSEPH J	10
+100	2701	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	CONLON,FRANK L	10
+101	2785	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	KINGSOLVER,JOEL G	10
+102	2726	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	AHMED,SHAWN	10
+107	2727	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BURCH,CHRISTINA L	10
+108	2705	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	LAEDERACH,ALAIN	10
+109	2761	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WILLETT,CHRISTOPHER S	10
+110	2762	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	COPENHAVER,GREGORY P	9
+111	2786	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	VISION,TODD J	10
+395H		001	2899	Undergraduate Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 12:30 PM-02:00 PM	Genome Sciences Bui-Rm 1377	In Person On Campus Learners	Zwemer,Lillian	15
+409L		401	2849	Printmaking And Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	M 11:15 AM-02:00 PM	Coker Hall-Rm 0214	In Person On Campus Learners	GOLDSTEIN\GRABOWSKI	0
+421		001	15184	Bacterial Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	None	In Person On Campus Learners	MATTHYSSE,ANN G	0
+421L		041	15171	Bacterial Genetics Laboratory	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 01:25 PM-04:25 PM	Wilson Hall-Rm 0244	In Person On Campus Learners	MATTHYSSE,ANN G	0
+422		001	2656	Microbiology	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 11:15 AM-12:05 PM	Coker Hall-Rm 0201	In Person On Campus Learners	Parker,Benjamin James	0
+422L		401	2670	Microbiology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TTH 09:00 AM-10:30 AM	Wilson Hall-Rm 0138	In Person On Campus Learners	BURCH,CHRISTINA L	0
+402	2850	Microbiology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TTH 10:45 AM-12:15 PM	Wilson Hall-Rm 0138	In Person On Campus Learners	BURCH,CHRISTINA L	0
+403	12823	Microbiology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TTH 12:30 PM-02:00 PM	Wilson Hall-Rm 0138	In Person On Campus Learners	BURCH,CHRISTINA L	0
+404	12822	Microbiology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TTH 02:15 PM-03:45 PM	Wilson Hall-Rm 0138	In Person On Campus Learners	BURCH,CHRISTINA L	0
+405	15297	Microbiology Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	TTH 04:00 PM-05:30 PM	Wilson Hall-Rm 0138	In Person On Campus Learners	BURCH,CHRISTINA L	0
+425		001	2657	Human Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	Wilson Hall-Rm 0128	In Person On Campus Learners	COPENHAVER\SEKELSKY	0
+430	CHEM 430	001	2658	Intro Biolog Chem	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 08:00 AM-09:15 AM	Genome Sciences Bui-Rm G100	In Person On Campus Learners	PIELAK,GARY J	0
+431	BMME 435, PHYS 405	001	15515	Biological Physics	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 10:10 AM-11:00 AM	Phillips Hall-Rm 0265	In Person On Campus Learners	HILL,DAVID B	9
+440		001	11709	Stem Cell Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	Genome Sciences Bui-Rm 1378	In Person On Campus Learners	Gordon,Kacy L	0
+447		001	12453	Cell Bio Beyond Core Basics	2025 Fall	1.0	08/18/2025 - 12/12/2025	TTH 03:30 PM-04:45 PM	Genome Sciences Bui-Rm 1377	In Person On Campus Learners	Maddox,Paul Samuel	0
+447L		401	12445	Cell Bio Laboratory	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 01:25 PM-04:35 PM	Wilson Hall-Rm 0130	In Person On Campus Learners	Maddox,Paul Samuel	0
+449		001	11708	Introduction To Immunology	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	Genome Sciences Bui-Rm 1374	In Person On Campus Learners	GARLAND,ALAINA L	3
+450		001	12380	Neurobiology	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 09:05 AM-09:55 AM	Wilson Hall-Rm 0128	In Person On Campus Learners	Chen,Jiakun	28
+452	EMES 446	001	15415	Marine Microbial Symbioses	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	Phillips Hall-Rm 0215	In Person On Campus Learners	Septer,Alecia Noelle	0
+454		001	10769	Evolutionary Genetics	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 11:15 AM-12:05 PM	Genome Sciences Bui-Rm 1374	In Person On Campus Learners	Johri,Parul	0
+455		001	13579	Behavioral Neuroscience	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 12:30 PM-01:45 PM	Genome Sciences Bui-Rm 1377	In Person On Campus Learners	BURMEISTER,SABRINA S	18
+456	EMES 444, ENEC 444	001	11259	Marine Phytoplankton	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 10:10 AM-11:00 AM	Venable Hall-Rm G311	In Person On Campus Learners	MARCHETTI,ADRIAN	0
+457	EMES 442	001	15329	Marine Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 03:35 PM-04:25 PM	Dey Hall-Rm 0305	In Person On Campus Learners	CASTILLO,KARL DAVID	1
+464		001	11707	Global Change Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 12:30 PM-01:45 PM	Genome Sciences Bui-Rm 1374	In Person On Campus Learners	Riddell,Eric	6
+465		001	13580	Global Biodiversity	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 09:30 AM-10:45 AM	Genome Sciences Bui-Rm 1377	In Person On Campus Learners	HURLBERT,ALLEN HARTLEY	7
+469		001	2884	Behavioral Ecology	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	None	In Person On Campus Learners	PFENNIG,KARIN S	0
+490		001	13644	Advanced Topics In Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 05:00 PM-07:30 PM	Bingham Hall-Rm 1029	In Person On Campus Learners	Yang,En	16
+490H		001	13584	Advanced Topics In Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	T 02:00 PM-04:45 PM	None	In Person On Campus Learners	Shiau,Celia	13
+495		001	2729	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	ROGERS,STEPHEN L	10
+002	2787	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MITCHELL,CHARLES E	10
+003	2788	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	FUREY,TERRENCE S	10
+004	2907	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BURMEISTER,SABRINA S	10
+005	2908	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	OTT,LAURA E	10
+006	11847	Undergrad Biology Research	2025 Fall	1.0	None	None	None	Remote Only - All Asynchronous	None	10
+007	2789	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Johnson,Corey Samuel	10
+009	2790	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BRUNO,JOHN F	10
+010	2909	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Zwemer,Lillian	10
+011	2791	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MATERA,ARNOLD GREGORY	10
+012	2835	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WEAKLEY,ALAN S	10
+013	2792	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MCKAY,DANIEL JAMES	10
+014	2874	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Dowen,Robert Houston	15
+015	2728	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SLEP,KEVIN C	10
+016	11848	Undergrad Biology Research	2025 Fall	1.0	None	None	None	Remote Only - All Asynchronous	None	10
+017	2844	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WILLIAMS,SCOTT E	10
+018	2763	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	HURLBERT,ALLEN HARTLEY	10
+019	2793	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Dowen,Jill	10
+020	11271	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SOCKMAN,KEITH W	10
+021	2794	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	JONES,CORBIN D	10
+022	2795	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	PFENNIG,KARIN S	10
+023	2836	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Claytor,Jordan Ray	10
+024	2837	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SERVEDIO,MARIA R	10
+025	2764	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SHEMER,GIDEON	10
+026	2796	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Shiau,Celia	10
+027	2765	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Maddox,Amy Shaub	10
+028	2880	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Gordon,Kacy L	10
+029	11849	Undergrad Biology Research	2025 Fall	1.0	None	None	None	Remote Only - All Asynchronous	None	10
+030	2838	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MATUTE,DANIEL R.	10
+031	2910	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Fodrie,Fredrick Joel	10
+032	2857	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	GARLAND,ALAINA L	10
+033	2839	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	HEDRICK,TYSON L	10
+035	11850	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Riddell,Eric	10
+036	11851	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Johri,Parul	10
+039	2797	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BLOOM,KERRY S	10
+040	2798	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Evans,Mara	10
+042	2881	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Hige,Toshihide	10
+045	2799	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	GENSEL,PATRICIA G	10
+047	10790	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Yitbarek,Senay	10
+049	11852	Undergrad Biology Research	2025 Fall	1.0	None	None	None	Remote Only - All Asynchronous	None	10
+050	10166	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	McCoy,Sophie	10
+052	2800	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MATTHYSSE,ANN G	10
+055	2801	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Maddox,Paul Samuel	10
+060	2802	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Nimchuk,Zachary Luke	10
+065	2803	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	CREWS,STEPHEN T	10
+066	2804	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	LOHMANN,CATHERINE M F	10
+070	2911	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Hastie,Eric Lawrence	10
+071	2805	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	JONES,ALAN M	10
+072	2912	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WHITE,PETER S	10
+074	11853	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	Prunet,Nathanael	10
+075	2878	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SANCAR,AZIZ	10
+079	2806	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BAUTCH,VICTORIA L	10
+081	2807	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BALDWIN Jr,ALBERT S	10
+083	2808	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	LOHMANN,KENNETH J	10
+085	2710	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	PEIFER,MARK A	10
+086	2809	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	MARZLUFF,WILLIAM F	10
+087	2810	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	DANGL,JEFFERY L	10
+088	2811	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	REED,JASON W	10
+089	2812	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	YEH,ELAINE Y	10
+091	2813	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	PFENNIG,DAVID W	10
+092	2814	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	DURONIO,ROBERT J	10
+095	2815	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	SEKELSKY,JEFF J	10
+096	2766	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	GOLDSTEIN,ROBERT P	10
+097	2720	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	KIEBER,JOSEPH J	10
+100	2730	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	CONLON,FRANK L	10
+101	2816	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	KINGSOLVER,JOEL G	10
+102	2817	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	AHMED,SHAWN	10
+107	2767	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	BURCH,CHRISTINA L	10
+108	2818	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	LAEDERACH,ALAIN	10
+109	2819	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	WILLETT,CHRISTOPHER S	9
+110	2820	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	COPENHAVER,GREGORY P	10
+111	2821	Undergrad Biology Research	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	Remote Only - All Asynchronous	VISION,TODD J	10
+502		001	15300	The Genome Editing Revolution	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	Genome Sciences Bui-Rm 1374	In Person On Campus Learners	Nimchuk,Zachary Luke	0
+514H		001	12273	Eco Evo Devo	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	Genome Sciences Bui-Rm 1377	In Person On Campus Learners	PFENNIG,DAVID W	17
+523		001	11838	Sex Diff In Human Disease	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 02:00 PM-03:15 PM	Genome Sciences Bui-Rm 1374	In Person On Campus Learners	CONLON,FRANK L	4
+525		001	2885	Functional Genomics	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 02:00 PM-03:15 PM	Genome Sciences Bui-Rm 1378	In Person On Campus Learners	FUREY,TERRENCE S	0
+525L		401	2886	Functional Genomics Lab	2025 Fall	1.0	08/18/2025 - 12/12/2025	T 03:30 PM-04:20 PM	Genome Sciences Bui-Rm 1378	In Person On Campus Learners	FUREY,TERRENCE S	0
+543H		001	9865	Cardiovascular Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 02:00 PM-03:15 PM	Wilson Hall-Rm 0202	In Person On Campus Learners	BAUTCH,VICTORIA L	9
+545		001	13585	Brain-Gut Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	TH 02:00 PM-04:45 PM	None	In Person On Campus Learners	Shiau,Celia	0
+553	MATH 553	001	2894	Mathematical Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 12:30 PM-01:45 PM	None	In Person On Campus Learners	SERVEDIO,MARIA R	0
+590		001	13643	Adv Spcl Tpcs Biol	2025 Fall	3.0	08/18/2025 - 12/12/2025	TH 08:00 AM-10:30 AM	None	In Person On Campus Learners	Feng,Xiao	17
+002	15217	Adv Spcl Tpcs Biol	2025 Fall	3.0	08/18/2025 - 12/12/2025	WF 02:30 PM-03:45 PM	Wilson Hall-Rm 0132	In Person On Campus Learners	ROGERS\SLEP	17
+590L		401	15218	Lab Adv Spcl Tpcs Biol	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 01:30 PM-02:20 PM	Wilson Hall-Rm 0132	In Person On Campus Learners	ROGERS\SLEP	16
+621	GNET 621	001	2659	Genetic Analysis I	2025 Fall	3.0	08/18/2025 - 12/12/2025	F 02:30 PM-03:20 PM	Wilson Hall-Rm 0128	In Person On Campus Learners	COPENHAVER\SEKELSKY	8
+GNET 621	001	2659	Genetic Analysis I	2025 Fall	3.0	08/18/2025 - 12/12/2025	TTH 11:00 AM-12:15 PM	Wilson Hall-Rm 0128	In Person On Campus Learners	COPENHAVER\SEKELSKY	8
+639		001	2842	Plant Cell Biology	2025 Fall	1.0	08/18/2025 - 12/12/2025	W 12:20 PM-01:10 PM	Wilson Hall-Rm 0213	In Person On Campus Learners	REED,JASON W	21
+692H		001	2714	Senior Hnrs Thesis In Biology	2025 Fall	3.0	08/18/2025 - 12/12/2025	W 01:25 PM-03:20 PM	Wilson Hall-Rm 0202	In Person On Campus Learners	Nevil,Markus	0
+858		001	15176	Comparative Physiology	2025 Fall	1.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	LOHMANN,KENNETH J	4
+891		001	15177	Seminar In Biology	2025 Fall	2.0	08/18/2025 - 12/12/2025	TH 12:30 PM-01:45 PM	None	In Person On Campus Learners	McCoy,Sophie	12
+994		001	2822	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	ROGERS,STEPHEN L	10
+002	2823	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	MITCHELL,CHARLES E	7
+003	2858	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	FUREY,TERRENCE S	9
+004	2660	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	BURMEISTER,SABRINA S	9
+006	11357	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	CASTILLO,KARL DAVID	10
+009	2672	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	BRUNO,JOHN F	8
+011	2859	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	MATERA,ARNOLD GREGORY	10
+012	2706	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	WEAKLEY,ALAN S	10
+013	2860	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	MCKAY,DANIEL JAMES	10
+014	2875	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Dowen,Robert Houston	10
+015	2693	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	SLEP,KEVIN C	10
+016	11854	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	Chen,Jiakun	4
+017	2861	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	WILLIAMS,SCOTT E	10
+018	2824	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	HURLBERT,ALLEN HARTLEY	10
+019	2862	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Dowen,Jill	10
+020	11272	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	SOCKMAN,KEITH W	8
+021	2682	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	JONES,CORBIN D	8
+022	2684	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	PFENNIG,KARIN S	8
+024	2687	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	SERVEDIO,MARIA R	8
+026	2772	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	Shiau,Celia	8
+027	2825	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Maddox,Amy Shaub	10
+028	2863	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Gordon,Kacy L	9
+029	11855	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Yang,En	3
+030	2750	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	MATUTE,DANIEL R.	10
+031	2851	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus + Remote	Fodrie,Fredrick Joel	10
+033	2689	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	HEDRICK,TYSON L	8
+035	2864	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Riddell,Eric	7
+036	11856	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Johri,Parul	10
+039	2826	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	BLOOM,KERRY S	10
+042	2848	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Hige,Toshihide	10
+045	2827	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	GENSEL,PATRICIA G	10
+047	10781	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Yitbarek,Senay	13
+049	11283	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Feng,Xiao	9
+050	9866	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	McCoy,Sophie	8
+055	2711	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Maddox,Paul Samuel	8
+060	2749	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Nimchuk,Zachary Luke	8
+065	2865	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	CREWS,STEPHEN T	10
+066	2845	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	LOHMANN,CATHERINE M F	10
+071	2882	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	JONES,ALAN M	10
+074	11857	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Prunet,Nathanael	10
+075	2876	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	SANCAR,AZIZ	9
+079	2828	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	BAUTCH,VICTORIA L	10
+080	13084	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	Gladfelter,Amy	1
+081	2866	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	BALDWIN Jr,ALBERT S	10
+083	2681	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	LOHMANN,KENNETH J	6
+085	2829	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	PEIFER,MARK A	10
+086	2867	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	MARZLUFF,WILLIAM F	10
+087	2868	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	DANGL,JEFFERY L	10
+088	2869	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	REED,JASON W	10
+089	2830	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	YEH,ELAINE Y	10
+091	2673	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	PFENNIG,DAVID W	8
+092	2870	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	DURONIO,ROBERT J	10
+095	2871	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	SEKELSKY,JEFF J	10
+096	2671	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	GOLDSTEIN,ROBERT P	10
+097	2688	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	KIEBER,JOSEPH J	9
+099	17811	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	None	None	In Person On Campus Learners	Parker,Benjamin James	2
+100	2683	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	CONLON,FRANK L	10
+101	2691	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	KINGSOLVER,JOEL G	10
+102	2872	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	AHMED,SHAWN	9
+107	2831	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	BURCH,CHRISTINA L	9
+108	2832	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	LAEDERACH,ALAIN	10
+109	2690	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	WILLETT,CHRISTOPHER S	9
+110	2833	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	COPENHAVER,GREGORY P	10
+111	2834	Doct Research And Dissertation	2025 Fall	3.0	08/18/2025 - 12/12/2025	MWF 08:00 AM-08:50 AM	None	In Person On Campus Learners	VISION,TODD J	10
+UNC
+About UNC
+Admissions
+Resources
+Policies and Procedures
+Tuition and Financial Aid
+Academic Calendar
+
+Office of the University Registrar
+Chapel Hill, North Carolina 27599
+
+Feedback? Contact UNCCatalog@unc.edu
+
+© 2020-2025 The University of North Carolina at Chapel Hill
