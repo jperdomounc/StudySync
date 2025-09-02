@@ -21,14 +21,46 @@ Many students struggle with building ideal class schedules, especially when bala
 
 - **Frontend:** React (Vite)
 - **Backend:** FastAPI (Python)
-- **Database:** (Planned) Integration for user sessions and schedule storage
+- **Database:** MongoDB (for notes and schedule storage)
 - **Environment Management:** Python venv, Node.js
 
 ## Getting Started
 
+### Prerequisites
+
+- Python 3.9+
+- Node.js 16+
+- Docker (for MongoDB)
+
+### Database Setup (MongoDB)
+
+1. **Start MongoDB using Docker:**
+   ```bash
+   # Make the setup script executable
+   chmod +x setup-mongodb.sh
+   
+   # Run the setup script
+   ./setup-mongodb.sh
+   ```
+
+2. **Alternative: Manual Docker setup:**
+   ```bash
+   docker-compose up -d mongodb
+   ```
+
+3. **Alternative: Local MongoDB installation:**
+   ```bash
+   # macOS with Homebrew
+   brew install mongodb-community
+   brew services start mongodb-community
+   ```
+
 ### Backend Setup
 
 ```bash
+# Navigate to backend directory
+cd backend
+
 # Set up virtual environment
 python -m venv venv
 source venv/bin/activate

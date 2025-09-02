@@ -1,3 +1,8 @@
 fastapi
 uvicorn
 pydantic
+pymongo
+python-dotenv
+pyjwt[crypto]
+bcrypt
+python-multipart
