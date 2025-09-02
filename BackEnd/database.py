@@ -1,5 +1,6 @@
 """Enhanced database operations for the revamped site"""
 import hashlib
+import bcrypt
 from datetime import datetime
 from typing import List, Optional, Dict, Any
 from pymongo import MongoClient, ASCENDING, DESCENDING
@@ -38,37 +39,70 @@ class DatabaseManager:
         self.professor_ratings.create_index([("major", ASCENDING), ("professor", ASCENDING)])
         self.professor_ratings.create_index("user_id")
     
+    def _hash_password(self, password: str) -> str:
+        """Hash a password using bcrypt"""
+        salt = bcrypt.gensalt()
+        hashed = bcrypt.hashpw(password.encode('utf-8'), salt)
+        return hashed.decode('utf-8')
+    
+    def _verify_password(self, password: str, hashed_password: str) -> bool:
+        """Verify a password against its hash"""
+        return bcrypt.checkpw(password.encode('utf-8'), hashed_password.encode('utf-8'))
+    
     def create_user(self, user_data: UserCreate) -> User:
-        """Create a new user"""
+        """Create a new user with hashed password"""
         # Check if user already exists
         existing_user = self.users.find_one({"email": user_data.email})
         if existing_user:
             raise ValueError("User with this email already exists")
+        
+        # Hash the password
+        hashed_password = self._hash_password(user_data.password)
         
         # Generate display name (e.g., "Computer Science 2028")
         display_name = f"{user_data.major} {user_data.grad_year}"
         
         user_dict = {
             "email": user_data.email,
+            "password_hash": hashed_password,
             "major": user_data.major,
             "grad_year": user_data.grad_year,
             "display_name": display_name,
             "created_at": datetime.utcnow(),
-            "is_active": True
+            "is_active": True,
+            "email_verified": False  # For future email verification
         }
         
         result = self.users.insert_one(user_dict)
         user_dict["id"] = str(result.inserted_id)
         
+        # Don't return password hash in user object
+        user_dict.pop("password_hash", None)
         return User(**user_dict)
     
     def get_user_by_email(self, email: str) -> Optional[User]:
-        """Get user by email"""
+        """Get user by email (without password hash)"""
         user_doc = self.users.find_one({"email": email.lower()})
         if user_doc:
             user_doc["id"] = str(user_doc["_id"])
+            user_doc.pop("password_hash", None)  # Don't include password hash
             return User(**user_doc)
         return None
+    
+    def authenticate_user(self, email: str, password: str) -> Optional[User]:
+        """Authenticate user with email and password"""
+        user_doc = self.users.find_one({"email": email.lower()})
+        if not user_doc:
+            return None
+        
+        # Verify password
+        if not self._verify_password(password, user_doc["password_hash"]):
+            return None
+        
+        # Return user without password hash
+        user_doc["id"] = str(user_doc["_id"])
+        user_doc.pop("password_hash", None)
+        return User(**user_doc)
     
     def get_user_by_id(self, user_id: str) -> Optional[User]:
         """Get user by ID"""

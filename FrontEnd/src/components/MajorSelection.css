@@ -3,6 +3,48 @@
   background: #f8f9fa;
 }
 
+.top-banner {
+  background: #13294B;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.banner-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.banner-subtitle {
+  font-size: 1rem;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  
+  .banner-subtitle {
+    font-size: 0.9rem;
+  }
+}
+
 .header {
   background: linear-gradient(135deg, #4B9CD3 0%, #13294B 100%);
   color: white;
@@ -65,12 +107,13 @@
 .main-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4rem 20px 2rem;
+  padding: 2rem 20px;
   position: relative;
 }
 
 .search-section {
   margin-bottom: 2rem;
+  padding-top: 0.5rem;
 }
 
 .search-box {
@@ -243,7 +286,7 @@
 
 @media (max-width: 480px) {
   .main-content {
-    padding: 3rem 15px 1rem;
+    padding: 1.5rem 15px;
   }
   
   .header {

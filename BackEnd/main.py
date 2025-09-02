@@ -106,12 +106,12 @@ def register_user(user_data: UserCreate):
 
 @app.post("/auth/login", response_model=dict)
 def login_user(login_data: LoginRequest):
-    """Login user with email"""
-    user = db_manager.get_user_by_email(login_data.email)
+    """Login user with email and password"""
+    user = db_manager.authenticate_user(login_data.email, login_data.password)
     if not user:
         raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail="User not found. Please register first."
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid email or password"
         )
     
     if not user.is_active:

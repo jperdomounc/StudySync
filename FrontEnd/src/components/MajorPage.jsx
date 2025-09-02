@@ -160,6 +160,12 @@ export default function MajorPage({ user, major, onBack }) {
 
   return (
     <div className="major-page-container">
+      <div className="top-banner">
+        <div className="banner-content">
+          <span className="banner-title">StudySync</span>
+          <span className="banner-subtitle">UNC Class & Professor Ratings</span>
+        </div>
+      </div>
       <header className="major-header">
         <div className="header-content">
           <div className="header-left">

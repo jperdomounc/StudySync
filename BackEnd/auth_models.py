@@ -6,6 +6,7 @@ import re
 
 class UserCreate(BaseModel):
     email: str
+    password: str
     major: str
     grad_year: int
     
@@ -20,6 +21,19 @@ class UserCreate(BaseModel):
             raise ValueError('Must use a valid UNC email address (@unc.edu, @live.unc.edu, or @ad.unc.edu)')
         
         return v.lower()
+    
+    @validator('password')
+    def validate_password(cls, v):
+        if not v:
+            raise ValueError('Password is required')
+        if len(v) < 8:
+            raise ValueError('Password must be at least 8 characters long')
+        if len(v) > 100:
+            raise ValueError('Password too long (max 100 characters)')
+        # Check for at least one letter and one number
+        if not re.search(r'[A-Za-z]', v) or not re.search(r'\d', v):
+            raise ValueError('Password must contain at least one letter and one number')
+        return v
     
     @validator('major')
     def validate_major(cls, v):
@@ -47,12 +61,19 @@ class User(BaseModel):
 
 class LoginRequest(BaseModel):
     email: str
+    password: str
     
     @validator('email')
     def validate_email(cls, v):
         if not v:
             raise ValueError('Email is required')
         return v.lower()
+    
+    @validator('password')
+    def validate_password(cls, v):
+        if not v:
+            raise ValueError('Password is required')
+        return v
 
 class ClassDifficultySubmission(BaseModel):
     class_code: str  # e.g., "COMP 550"

@@ -6,6 +6,7 @@ export default function Login({ onLogin }) {
   const [isRegistering, setIsRegistering] = useState(false);
   const [formData, setFormData] = useState({
     email: '',
+    password: '',
     major: '',
     grad_year: new Date().getFullYear() + 1
   });
@@ -44,7 +45,10 @@ export default function Login({ onLogin }) {
 
     try {
       const endpoint = isRegistering ? '/auth/register' : '/auth/login';
-      const payload = isRegistering ? formData : { email: formData.email };
+      const payload = isRegistering ? formData : { 
+        email: formData.email, 
+        password: formData.password 
+      };
 
       const response = await fetch(`http://localhost:8000${endpoint}`, {
         method: 'POST',
@@ -111,6 +115,21 @@ export default function Login({ onLogin }) {
               placeholder="yourname@unc.edu"
               required
               disabled={loading}
+            />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              value={formData.password}
+              onChange={handleChange}
+              placeholder={isRegistering ? "At least 8 characters with letters and numbers" : "Enter your password"}
+              required
+              disabled={loading}
+              minLength={isRegistering ? 8 : undefined}
             />
           </div>
 
