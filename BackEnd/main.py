@@ -1,125 +1,263 @@
-from fastapi import FastAPI, HTTPException
+"""
+Revamped StudySync API - UNC Class and Professor Rating System
+"""
+from fastapi import FastAPI, HTTPException, Depends, status
 from fastapi.middleware.cors import CORSMiddleware
-from typing import List
-from pydantic import BaseModel
-from models import ShoppingCart, Course, NoteCreate, Note
-from parser import parse_shopping_cart
-from optimizer import ScheduleOptimizer
-from notes_db import notes_db
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from typing import List, Optional
+import jwt
+import os
+from datetime import datetime, timedelta
+from dotenv import load_dotenv
 
-app = FastAPI()
-optimizer = ScheduleOptimizer()
+load_dotenv()
+from auth_models import (
+    User, UserCreate, LoginRequest, ClassDifficultySubmission, 
+    ProfessorRating, ClassRanking, MajorStats
+)
+from database import db_manager
 
-# Allow frontend on localhost to call this API
+app = FastAPI(title="StudySync - UNC Class Rating System", version="2.0.0")
+
+# Security
+security = HTTPBearer()
+SECRET_KEY = os.getenv("JWT_SECRET_KEY", "fallback-secret-key-for-dev")
+ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
+
+# CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-class OptimizedScheduleResponse(BaseModel):
-    schedules: List[List[Course]]
-    total_found: int
+def create_access_token(user_id: str, expires_delta: Optional[timedelta] = None):
+    """Create JWT access token"""
+    if expires_delta:
+        expire = datetime.utcnow() + expires_delta
+    else:
+        expire = datetime.utcnow() + timedelta(days=7)  # 7 days expiry
+    
+    to_encode = {"user_id": user_id, "exp": expire}
+    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+    return encoded_jwt
 
-class AddCourseRequest(BaseModel):
-    existing_schedule: List[Course]
-    new_course_title: str
-    available_courses: List[Course]
-
-@app.post("/generate_schedule", response_model=List[Course])
-def generate_schedule(cart: ShoppingCart):
-    # Parse raw shopping cart text into structured courses
-    all_courses = parse_shopping_cart(cart.pasted_text)
-    
-    # Filter by time preferences (optional but useful)
-    filtered = [
-        c for c in all_courses
-        if cart.preferences.earliest_time <= c.start_time <= cart.preferences.latest_time
-    ]
-
-    return filtered
-
-@app.post("/optimize_schedule", response_model=OptimizedScheduleResponse)
-def optimize_schedule(cart: ShoppingCart):
-    """Generate optimized schedules based on professor ratings"""
-    # Parse raw shopping cart text into structured courses
-    all_courses = parse_shopping_cart(cart.pasted_text)
-    
-    # Filter by time preferences
-    filtered = [
-        c for c in all_courses
-        if cart.preferences.earliest_time <= c.start_time <= cart.preferences.latest_time
-    ]
-    
-    # Add professor ratings to courses
-    for course in filtered:
-        course.rating = optimizer.get_professor_rating(course.instructor)
-    
-    # Generate optimized schedules
-    optimized_schedules = optimizer.optimize_schedule(filtered, max_schedules=5)
-    
-    return OptimizedScheduleResponse(
-        schedules=optimized_schedules,
-        total_found=len(optimized_schedules)
-    )
-
-@app.post("/add_course_to_schedule", response_model=List[Course])
-def add_course_to_schedule(request: AddCourseRequest):
-    """Find a schedule that fits an additional course"""
-    new_schedule = optimizer.find_schedule_with_additional_course(
-        request.existing_schedule,
-        request.new_course_title,
-        request.available_courses
-    )
-    
-    # Update ratings for the new schedule
-    for course in new_schedule:
-        course.rating = optimizer.get_professor_rating(course.instructor)
-    
-    return new_schedule
-
-# Notes API endpoints
-@app.post("/notes", response_model=Note)
-def create_note(note_data: NoteCreate):
-    """Create a new note with safety validations"""
+def verify_token(credentials: HTTPAuthorizationCredentials = Depends(security)):
+    """Verify JWT token and return user ID"""
     try:
-        note = notes_db.create_note(note_data)
-        return note
+        payload = jwt.decode(credentials.credentials, SECRET_KEY, algorithms=[ALGORITHM])
+        user_id: str = payload.get("user_id")
+        if user_id is None:
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Invalid authentication credentials"
+            )
+        return user_id
+    except jwt.PyJWTError:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication credentials"
+        )
+
+def get_current_user(user_id: str = Depends(verify_token)) -> User:
+    """Get current authenticated user"""
+    user = db_manager.get_user_by_id(user_id)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found"
+        )
+    return user
+
+# Health check
+@app.get("/")
+async def root():
+    return {
+        "message": "StudySync API v2.0 - UNC Class Rating System",
+        "status": "active",
+        "timestamp": datetime.utcnow()
+    }
+
+# Authentication endpoints
+@app.post("/auth/register", response_model=dict)
+def register_user(user_data: UserCreate):
+    """Register a new user with UNC email"""
+    try:
+        user = db_manager.create_user(user_data)
+        access_token = create_access_token(user.id)
+        
+        return {
+            "access_token": access_token,
+            "token_type": "bearer",
+            "user": {
+                "id": user.id,
+                "email": user.email,
+                "display_name": user.display_name,
+                "major": user.major,
+                "grad_year": user.grad_year
+            }
+        }
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
-        raise HTTPException(status_code=500, detail="Failed to create note")
+        raise HTTPException(status_code=500, detail="Registration failed")
 
-@app.get("/notes", response_model=List[Note])
-def get_all_notes():
-    """Get all notes"""
+@app.post("/auth/login", response_model=dict)
+def login_user(login_data: LoginRequest):
+    """Login user with email"""
+    user = db_manager.get_user_by_email(login_data.email)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found. Please register first."
+        )
+    
+    if not user.is_active:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="User account is deactivated"
+        )
+    
+    access_token = create_access_token(user.id)
+    
+    return {
+        "access_token": access_token,
+        "token_type": "bearer",
+        "user": {
+            "id": user.id,
+            "email": user.email,
+            "display_name": user.display_name,
+            "major": user.major,
+            "grad_year": user.grad_year
+        }
+    }
+
+@app.get("/auth/me", response_model=User)
+def get_current_user_profile(current_user: User = Depends(get_current_user)):
+    """Get current user profile"""
+    return current_user
+
+# Major endpoints
+@app.get("/majors", response_model=List[str])
+def get_all_majors():
+    """Get all available majors"""
     try:
-        return notes_db.get_all_notes()
+        majors = db_manager.get_all_majors()
+        return majors
     except Exception as e:
-        raise HTTPException(status_code=500, detail="Failed to retrieve notes")
+        raise HTTPException(status_code=500, detail="Failed to retrieve majors")
 
-@app.get("/notes/{note_id}", response_model=Note)
-def get_note(note_id: int):
-    """Get a specific note by ID"""
-    note = notes_db.get_note_by_id(note_id)
-    if not note:
-        raise HTTPException(status_code=404, detail="Note not found")
-    return note
-
-@app.delete("/notes/{note_id}")
-def delete_note(note_id: int):
-    """Delete a note by ID"""
-    success = notes_db.delete_note(note_id)
-    if not success:
-        raise HTTPException(status_code=404, detail="Note not found")
-    return {"message": "Note deleted successfully"}
-
-@app.get("/notes/course/{course}", response_model=List[Note])
-def get_notes_by_course(course: str):
-    """Get all notes for a specific course"""
+@app.get("/majors/{major}/stats", response_model=MajorStats)
+def get_major_statistics(major: str):
+    """Get statistics for a specific major"""
     try:
-        return notes_db.get_notes_by_course(course)
+        stats = db_manager.get_major_stats(major)
+        return stats
     except Exception as e:
-        raise HTTPException(status_code=500, detail="Failed to retrieve course notes")
+        raise HTTPException(status_code=500, detail="Failed to retrieve major statistics")
+
+@app.get("/majors/{major}/classes", response_model=List[ClassRanking])
+def get_class_rankings(major: str, limit: int = 50):
+    """Get class difficulty rankings for a specific major"""
+    try:
+        rankings = db_manager.get_class_rankings_by_major(major, limit)
+        return rankings
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to retrieve class rankings")
+
+# Class difficulty submission endpoints
+@app.post("/submissions/difficulty")
+def submit_class_difficulty(
+    submission: ClassDifficultySubmission,
+    current_user: User = Depends(get_current_user)
+):
+    """Submit a class difficulty rating"""
+    try:
+        # Set the user_id from the authenticated user
+        submission.user_id = current_user.id
+        
+        # Ensure the submission is for the user's major
+        if submission.major != current_user.major:
+            raise HTTPException(
+                status_code=400,
+                detail="You can only submit ratings for your own major"
+            )
+        
+        success = db_manager.submit_class_difficulty(submission)
+        if success:
+            return {"message": "Difficulty rating submitted successfully"}
+        else:
+            raise HTTPException(status_code=500, detail="Failed to submit rating")
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to submit rating")
+
+# Professor rating endpoints
+@app.post("/submissions/professor")
+def submit_professor_rating(
+    rating: ProfessorRating,
+    current_user: User = Depends(get_current_user)
+):
+    """Submit a professor rating"""
+    try:
+        # Set the user_id from the authenticated user
+        rating.user_id = current_user.id
+        
+        # Ensure the rating is for the user's major
+        if rating.major != current_user.major:
+            raise HTTPException(
+                status_code=400,
+                detail="You can only submit ratings for your own major"
+            )
+        
+        success = db_manager.submit_professor_rating(rating)
+        if success:
+            return {"message": "Professor rating submitted successfully"}
+        else:
+            raise HTTPException(status_code=500, detail="Failed to submit rating")
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to submit rating")
+
+@app.get("/professors/{professor}/ratings")
+def get_professor_ratings(professor: str, class_code: Optional[str] = None):
+    """Get ratings for a specific professor"""
+    try:
+        ratings = db_manager.get_professor_ratings(professor, class_code)
+        return {
+            "professor": professor,
+            "class_code": class_code,
+            "ratings": ratings
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to retrieve professor ratings")
+
+# Admin endpoints (for future use)
+@app.get("/admin/users", response_model=List[dict])
+def get_all_users(current_user: User = Depends(get_current_user)):
+    """Get all users (admin only)"""
+    # In a real application, you'd check if the user is an admin
+    # For now, we'll just return basic info
+    try:
+        # This is a placeholder - implement proper admin checks
+        return {"message": "Admin functionality not implemented yet"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to retrieve users")
+
+# Legacy endpoints (to maintain compatibility during transition)
+@app.get("/health")
+async def health_check():
+    """Health check endpoint"""
+    return {
+        "status": "healthy",
+        "timestamp": datetime.utcnow(),
+        "version": "2.0.0"
+    }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

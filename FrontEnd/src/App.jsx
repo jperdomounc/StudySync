@@ -1,23 +1,65 @@
-import { useState } from 'react';
-import StudySyncForm from './components/StudySyncForm';
-import NotesPage from './components/NotesPage';
-import Navigation from './components/Navigation';
+import { useState, useEffect } from 'react';
+import Login from './components/Login';
+import MajorSelection from './components/MajorSelection';
+import MajorPage from './components/MajorPage';
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState('schedule');
+  const [user, setUser] = useState(null);
+  const [currentView, setCurrentView] = useState('login');
+  const [selectedMajor, setSelectedMajor] = useState(null);
 
-  const handlePageChange = (page) => {
-    setCurrentPage(page);
+  useEffect(() => {
+    // Check if user is already logged in
+    const token = localStorage.getItem('token');
+    const savedUser = localStorage.getItem('user');
+    
+    if (token && savedUser) {
+      try {
+        const userData = JSON.parse(savedUser);
+        setUser(userData);
+        setCurrentView('majorSelection');
+      } catch (error) {
+        console.error('Error parsing saved user data:', error);
+        localStorage.removeItem('token');
+        localStorage.removeItem('user');
+      }
+    }
+  }, []);
+
+  const handleLogin = (userData) => {
+    setUser(userData);
+    setCurrentView('majorSelection');
   };
+
+  const handleMajorSelect = (major) => {
+    setSelectedMajor(major);
+    setCurrentView('majorPage');
+  };
+
+  const handleBackToMajors = () => {
+    setSelectedMajor(null);
+    setCurrentView('majorSelection');
+  };
+
+  if (!user) {
+    return <Login onLogin={handleLogin} />;
+  }
 
   return (
     <div className="app">
-      <Navigation currentPage={currentPage} onPageChange={handlePageChange} />
-      
-      <main>
-        {currentPage === 'schedule' && <StudySyncForm />}
-        {currentPage === 'notes' && <NotesPage />}
-      </main>
+      {currentView === 'majorSelection' && (
+        <MajorSelection 
+          user={user} 
+          onMajorSelect={handleMajorSelect} 
+        />
+      )}
+      {currentView === 'majorPage' && selectedMajor && (
+        <MajorPage 
+          user={user}
+          major={selectedMajor}
+          onBack={handleBackToMajors}
+        />
+      )}
     </div>
   );
 }
