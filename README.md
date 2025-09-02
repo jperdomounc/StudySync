@@ -1,28 +1,41 @@
 # StudySync
+**UNC Class & Professor Rating System**
 
-StudySync is a full-stack web application that helps college students generate optimized class schedules. Built with a React frontend and FastAPI backend, the platform streamlines the course selection process by allowing users to paste in their shopping cart and current schedule to receive conflict-free scheduling options.
-
-## Project Overview
-
-Many students struggle with building ideal class schedules, especially when balancing multiple course options and section times. StudySync simplifies this by:
-
-- Parsing raw schedule information copied from a university portal
-- Detecting time conflicts and fitting classes around existing commitments
-- Suggesting optimized schedules based on availability, preferences, or course load
+StudySync is a full-stack web application designed exclusively for UNC students to rate class difficulty and professors. Built with secure UNC email authentication, the platform helps students make informed course selection decisions by providing community-driven ratings and reviews.
 
 ## Features
 
-- Paste-in support for shopping cart and schedule data
-- Backend logic to identify valid, conflict-free schedule combinations
-- Ranked output based on fit and user-defined constraints (planned)
-- Modular design for future expansion (e.g., professor ratings, preferred times)
+### 🔐 **Authentication System**
+- UNC email validation (@unc.edu, @live.unc.edu, @ad.unc.edu)
+- Secure password authentication with bcrypt hashing
+- JWT token-based sessions
+- User profiles displayed as "Major YYYY" format
+
+### 📊 **Class Rating System**
+- Rate class difficulty on a 1-10 scale
+- View class rankings sorted by average difficulty
+- Search functionality for finding specific classes
+- Major-specific data filtering
+
+### 👨‍🏫 **Professor Rating System** 
+- Rate professors on a 1-5 star scale
+- Write detailed reviews and experiences
+- View professor ratings by class
+- Professor statistics and rating counts
+
+### 🎓 **Major-Based Organization**
+- Browse ratings by academic major
+- Only rate classes/professors within your major
+- Major statistics and insights
+- Comprehensive major list covering UNC programs
 
 ## Tech Stack
 
-- **Frontend:** React (Vite)
+- **Frontend:** React + Vite
 - **Backend:** FastAPI (Python)
-- **Database:** MongoDB (for notes and schedule storage)
-- **Environment Management:** Python venv, Node.js
+- **Database:** MongoDB with indexed collections
+- **Authentication:** JWT tokens with bcrypt password hashing
+- **Styling:** Modern CSS with responsive design
 
 ## Getting Started
 
@@ -68,5 +81,72 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
+# Create environment file (optional)
+cp .env.example .env
+# Edit .env with your JWT secret key
+
 # Start the FastAPI server
-uvicorn main:app --reload
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+
+### Frontend Setup
+
+```bash
+# Navigate to frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+### Quick Start
+
+Use the provided script to start both services:
+
+```bash
+# Make script executable and run
+chmod +x start_new.sh
+./start_new.sh
+```
+
+This will start:
+- MongoDB (Docker)
+- Backend API (http://localhost:8000)
+- Frontend (http://localhost:5173)
+
+## Usage
+
+1. **Register/Login:** Use your UNC email address to create an account
+2. **Choose Major:** Select your major from the homepage
+3. **Browse Ratings:** View class difficulty rankings and professor ratings
+4. **Submit Ratings:** Rate classes and professors you've experienced
+5. **Search:** Find specific classes using the search functionality
+
+## API Endpoints
+
+### Authentication
+- `POST /auth/register` - Register new UNC student
+- `POST /auth/login` - Login with email/password
+- `GET /auth/me` - Get current user profile
+
+### Ratings & Data
+- `GET /majors` - Get all available majors
+- `GET /majors/{major}/classes` - Get class rankings by major
+- `POST /submissions/difficulty` - Submit class difficulty rating
+- `POST /submissions/professor` - Submit professor rating
+- `GET /professors/{professor}/ratings` - Get professor ratings
+
+## Development
+
+The application follows a modern full-stack architecture:
+- React frontend with component-based design
+- FastAPI backend with dependency injection
+- MongoDB with proper indexing for performance
+- JWT-based authentication with secure password storage
+
+## License
+
+Educational use for UNC students.
