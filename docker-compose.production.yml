@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+  # Production MongoDB
+  mongodb:
+    image: mongo:7.0
+    container_name: studysync-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME:-admin}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:-password}
+      MONGO_INITDB_DATABASE: studysync
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - ./mongodb/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    networks:
+      - studysync
+    command: mongod --auth
+
+  # Production Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: studysync-backend
+    restart: unless-stopped
+    environment:
+      - MONGODB_URL=mongodb://${MONGO_ROOT_USERNAME:-admin}:${MONGO_ROOT_PASSWORD:-password}@mongodb:27017/studysync?authSource=admin
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+      - ENVIRONMENT=production
+      - CORS_ORIGINS=${CORS_ORIGINS:-https://studysync.yourdomain.com}
+      - DATABASE_NAME=studysync
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    networks:
+      - studysync
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Production Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: studysync-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=${API_URL:-http://localhost:8000}
+    depends_on:
+      - backend
+    networks:
+      - studysync
+
+  # Reverse Proxy (Optional - for custom domains)
+  nginx-proxy:
+    image: nginx:alpine
+    container_name: studysync-proxy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/production.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - backend
+      - frontend
+    networks:
+      - studysync
+    profiles:
+      - proxy
+
+volumes:
+  mongodb_data:
+    driver: local
+
+networks:
+  studysync:
+    driver: bridge

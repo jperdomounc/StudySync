@@ -84,8 +84,15 @@ export default function MajorPage({ user, major, onBack }) {
         });
         fetchClassRankings(); // Refresh data
       } else {
-        const errorData = await response.json();
-        alert(errorData.detail || 'Failed to submit rating');
+        try {
+          const errorData = await response.json();
+          const errorMessage = typeof errorData.detail === 'string' 
+            ? errorData.detail 
+            : errorData.message || 'Failed to submit rating';
+          alert(errorMessage);
+        } catch (parseError) {
+          alert(`Failed to submit rating. Status: ${response.status}`);
+        }
       }
     } catch (error) {
       console.error('Error submitting difficulty:', error);
@@ -123,8 +130,15 @@ export default function MajorPage({ user, major, onBack }) {
         });
         fetchClassRankings(); // Refresh data
       } else {
-        const errorData = await response.json();
-        alert(errorData.detail || 'Failed to submit rating');
+        try {
+          const errorData = await response.json();
+          const errorMessage = typeof errorData.detail === 'string' 
+            ? errorData.detail 
+            : errorData.message || 'Failed to submit rating';
+          alert(errorMessage);
+        } catch (parseError) {
+          alert(`Failed to submit rating. Status: ${response.status}`);
+        }
       }
     } catch (error) {
       console.error('Error submitting professor rating:', error);

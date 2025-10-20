@@ -23,11 +23,15 @@ app = FastAPI(title="StudySync - UNC Class Rating System", version="2.0.0")
 security = HTTPBearer()
 SECRET_KEY = os.getenv("JWT_SECRET_KEY", "fallback-secret-key-for-dev")
 ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
+ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
+
+# CORS Configuration
+CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",")
 
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -248,16 +252,36 @@ def get_all_users(current_user: User = Depends(get_current_user)):
     except Exception as e:
         raise HTTPException(status_code=500, detail="Failed to retrieve users")
 
-# Legacy endpoints (to maintain compatibility during transition)
+# Health check endpoints
 @app.get("/health")
 async def health_check():
-    """Health check endpoint"""
-    return {
-        "status": "healthy",
-        "timestamp": datetime.utcnow(),
-        "version": "2.0.0"
-    }
+    """Comprehensive health check endpoint"""
+    try:
+        # Check database connection
+        db_health = db_manager.get_database_health()
+        
+        return {
+            "status": "healthy",
+            "timestamp": datetime.utcnow(),
+            "version": "2.0.0",
+            "environment": ENVIRONMENT,
+            "database": db_health,
+            "services": {
+                "auth": "operational",
+                "ratings": "operational"
+            }
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=503,
+            detail={
+                "status": "unhealthy",
+                "error": str(e),
+                "timestamp": datetime.utcnow()
+            }
+        )
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)

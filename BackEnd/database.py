@@ -121,6 +121,9 @@ class DatabaseManager:
         submission_dict = submission.dict()
         submission_dict["submitted_at"] = datetime.utcnow()
         
+        # Debug logging
+        print(f"DEBUG: Submitting difficulty for user_id: {submission.user_id}, class: {submission.class_code}, major: {submission.major}")
+        
         # Check if user already submitted for this class
         existing = self.class_submissions.find_one({
             "user_id": submission.user_id,
@@ -130,13 +133,16 @@ class DatabaseManager:
         
         if existing:
             # Update existing submission
+            print(f"DEBUG: Updating existing submission {existing['_id']}")
             self.class_submissions.update_one(
                 {"_id": existing["_id"]},
                 {"$set": submission_dict}
             )
         else:
             # Create new submission
-            self.class_submissions.insert_one(submission_dict)
+            print(f"DEBUG: Creating new submission")
+            result = self.class_submissions.insert_one(submission_dict)
+            print(f"DEBUG: Inserted with ID: {result.inserted_id}")
         
         return True
     
@@ -271,6 +277,29 @@ class DatabaseManager:
             rating["id"] = str(rating.pop("_id"))
         
         return ratings
+    
+    def get_database_health(self):
+        """Check database health for monitoring"""
+        try:
+            # Test database connection
+            self.db.command('ping')
+            
+            # Get database stats
+            stats = self.db.command("dbStats")
+            
+            return {
+                "status": "healthy",
+                "database": self.db.name,
+                "collections": stats.get("collections", 0),
+                "dataSize": stats.get("dataSize", 0),
+                "storageSize": stats.get("storageSize", 0)
+            }
+        except Exception as e:
+            return {
+                "status": "unhealthy",
+                "error": str(e),
+                "database": self.db.name if self.db else "unknown"
+            }
 
 # Global database manager instance
 db_manager = DatabaseManager()

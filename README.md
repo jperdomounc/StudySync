@@ -117,6 +117,22 @@ This will start:
 - Backend API (http://localhost:8000)
 - Frontend (http://localhost:5173)
 
+### Initialize with UNC Course Data
+
+To populate the database with real UNC course data for testing:
+
+```bash
+# Initialize database with sample UNC courses and ratings
+./scripts/initialize_db.sh
+```
+
+This adds:
+- **8 UNC majors** (Art, Applied Sciences, Biology, Computer Science, Data Science, Economics, Business Administration, Neuroscience)
+- **288+ real UNC courses** with actual course codes and names
+- **580+ class difficulty ratings** (1-10 scale)
+- **1,280+ professor reviews** with realistic ratings
+- **40 sample professors** teaching across different courses
+
 ## Usage
 
 1. **Register/Login:** Use your UNC email address to create an account

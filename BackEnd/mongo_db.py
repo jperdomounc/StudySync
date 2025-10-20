@@ -15,24 +15,38 @@ class MongoDatabase:
         """Connect to MongoDB"""
         try:
             mongodb_url = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
-            database_name = os.getenv("DATABASE_NAME", "schedulemaker")
+            database_name = os.getenv("DATABASE_NAME", "studysync")
             
-            self.client = MongoClient(mongodb_url, serverSelectionTimeoutMS=5000)
+            # Production-ready connection options
+            self.client = MongoClient(
+                mongodb_url, 
+                serverSelectionTimeoutMS=5000,
+                connectTimeoutMS=5000,
+                maxPoolSize=50,
+                retryWrites=True
+            )
             self.db = self.client[database_name]
             
             # Test the connection
             self.client.admin.command('ping')
-            print(f"Connected to MongoDB at {mongodb_url}")
+            print(f"✅ Connected to MongoDB: {database_name}")
             
         except Exception as e:
-            print(f"Failed to connect to MongoDB: {e}")
-            print("Please ensure MongoDB is running locally or update MONGODB_URL in .env")
-            print("To start MongoDB locally: brew services start mongodb-community")
+            print(f"❌ Failed to connect to MongoDB: {e}")
+            print("Please ensure MongoDB is running or check MONGODB_URL in .env")
             raise
     
     def get_collection(self, collection_name: str):
         """Get a collection from the database"""
         return self.db[collection_name]
+    
+    def get_health_status(self):
+        """Check database health for monitoring"""
+        try:
+            self.client.admin.command('ping')
+            return {"status": "healthy", "database": self.db.name}
+        except Exception as e:
+            return {"status": "unhealthy", "error": str(e)}
     
     def close(self):
         """Close the database connection"""

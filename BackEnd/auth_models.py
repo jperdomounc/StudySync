@@ -82,7 +82,7 @@ class ClassDifficultySubmission(BaseModel):
     difficulty_rating: int
     professor: str
     semester: str  # e.g., "Fall 2024"
-    user_id: str
+    user_id: Optional[str] = None
     
     @validator('class_code')
     def validate_class_code(cls, v):
@@ -131,7 +131,7 @@ class ProfessorRating(BaseModel):
     review: Optional[str] = ""
     major: str
     semester: str
-    user_id: str
+    user_id: Optional[str] = None
     
     @validator('professor')
     def validate_professor(cls, v):

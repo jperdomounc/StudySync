@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: studysync-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: studysync
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - studysync-network
+
+  backend:
+    build:
+      context: ./spring-backend
+      dockerfile: Dockerfile
+    container_name: studysync-backend
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/studysync
+      - MONGODB_DATABASE=studysync
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-your-secret-key-change-in-production}
+      - CORS_ORIGINS=http://localhost:4200,http://localhost:80
+      - ENVIRONMENT=production
+    depends_on:
+      - mongodb
+    networks:
+      - studysync-network
+
+  frontend:
+    build:
+      context: ./angular-frontend
+      dockerfile: Dockerfile
+    container_name: studysync-frontend
+    restart: unless-stopped
+    ports:
+      - "4200:80"
+    depends_on:
+      - backend
+    networks:
+      - studysync-network
+
+volumes:
+  mongodb_data:
+    driver: local
+
+networks:
+  studysync-network:
+    driver: bridge
